@@ -3,4 +3,5 @@ First of all u need to go to the Github file and launch the commands from there!
 1- git status
 2- git add
 3- git commit -m "bla bla bla"
+4- git push
 4- git pull
