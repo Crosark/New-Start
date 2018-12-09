@@ -5,3 +5,57 @@ First of all u need to go to the Github file and launch the commands from there!
 3- git commit -m "bla bla bla"
 4- git push
 4- git pull
+
+
+
+
+
+
+
+New Start 
+
+1) Creating a Git File
+	mkdir NewGit
+	cd NewGit
+	git init
+	
+	
+2) Branch 
+
+	git log --all --decorate --oneline --graph
+	
+	-Create new Branch
+		git branch NAme // to create the new branch named as NAme
+	- Check the Branches
+		git branch
+	-Delete Branch
+		git branch -d <branch_Name>
+		
+***Note: check which branch has merged with the master branch 
+			git branch --merge
+			
+3) Check out and working on Branches
+	git checkout <Branch_name>
+	
+4) Merging
+	4.1) Fast-Faward Merge
+			git merge <Branch_name>
+	4.2) three way Merge
+			git merge <Branch_name>
+			
+**Note: Merge Conflicts			
+	
+	
+5) To show the differnce between the Branches Changes
+	git diff master ..<Branch_name>
+	
+6) save work in the branch for later 
+	git stach
+	git stach list
+	git stach list -p
+	git stach apply
+	
+	
+*Note: to create a graph	
+alias graph ="git log --all --decorte --oneline --graph"
+graph
